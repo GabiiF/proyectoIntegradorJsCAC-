@@ -26,7 +26,7 @@ function hacerDescuento() {
     nombre = document.getElementById('nombre').value;
     apellido = document.getElementById('apellido').value;
     correo = document.getElementById('email').value;
-    if (nombre != '' && apellido != '' && correo != ''&& cantidad != '') {
+    if (nombre != '' && apellido != '' && correo != ''&& cantidad != '' && categoria != '') {
         switch (categoria) {
             case '1':
                 categoria = descuentoEstudiante;
@@ -41,7 +41,6 @@ function hacerDescuento() {
                 valorTotal = valorTicket * cantidad * categoria;
                 break;
             default:
-                alert('elija una opcion');
                 break;
 
         }
