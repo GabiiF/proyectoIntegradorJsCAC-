@@ -50,5 +50,6 @@ function hacerDescuento() {
     }
     else {
         alert('debe agregar todos los datos');
+        document.getElementById('totalPago').innerHTML = "";
     }
 }
