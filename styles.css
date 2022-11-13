@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.menu{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.pie{
+    background-color: #1d506d;
+    margin: 0;
+    display: flex;
+}
+#enviar,#btnBorrar,#btnResumen{
+    background-color: #96c93e;
+    color: white;
+}
+.pie .container-footer a{
+    color:white;
+    text-decoration: none;
+}
+.oscuridad{
+    filter: brightness(0.5);
+}
+.texto{
+    margin-bottom: 6em;
+    right: 3%;
+}
+
+.footer-item{
+    padding: 1em;
+}
