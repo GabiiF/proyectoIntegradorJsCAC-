@@ -19,6 +19,10 @@ let descuento;
 let valorTotal;
 
 document.getElementById("btnResumen").addEventListener("click", hacerDescuento);
+document.getElementById("btnBorrar").addEventListener("click", borrar);
+function borrar(){
+    document.getElementById('totalPago').innerHTML = "";
+}
 
 function hacerDescuento() {
     categoria = document.getElementById('categoría').value;
